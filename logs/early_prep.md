@@ -7,16 +7,29 @@ This is where I will organize my plan for the Hack-a-Thon. Then I will gather an
 
 ## Security
 
-TODO
+> What do I want to learn? What can I learn in a weekend?
 
 
-### Terminology
+#### Slow Loris
 
-* **InfoSec** - A very general term for keeping all kinds of information secure.
-* **NetSec** - Usually more concerned with Firewalls, VPNs, IDPs, and router-level penetrations.
-* **AppSec** - Related more to software design and practices.
-* **ITSec** - Inside the system: host-based security, domain controllers / auth servers, access controls systems.
-* **OpSec** - The physical end of security, including social engineering defense.
+Okay, I heard about a fun little protocol attack that can be made against Apache servers, and I would like to try it out. Maybe I can build a little [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) website to test it against. I will try to implement the attack in Java before the hack-a-thon and throw the code up on GitHub [here](https://github.com/theJollySin/AttackTheBlock).
+
+
+#### Penetration Testing - Kali Linux
+
+[Kali Linux](http://www.kali.org/) is a common Linux distro used by people for penetration testing. I think it is just an [SELinux](selinuxproject.org) distro with a bunch of penetration tools pre-installed. That doesn't sound like something an expert would need, but it sounds ideal for a beginner.
+
+[This](https://www.youtube.com/watch?v=vg9cNFPQFqM) seems like a good newbie indtroduction to Kali Linux. It is a 15-hour YouTube tutorial. Maybe I will hate it and have to find something else. We will see.
+
+
+#### Penetration Testing - Metasploit
+
+* [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - popular tool for developing and testing exploit code against a remote target
+* [Metasploit](https://www.goodreads.com/book/show/10545174-metasploit) - $ 20 used - popular textbook
+
+I was watching a presentation from DefCon 23 and someone (I forget who) mentioned that the Metasploit Framework was a popular pentatration testing tool. And he said he used this textbook to teach students. The Amazon reviews say the textbook is a little out-of-date, but I can handle that.
+
+If there is an entire textbook, maybe one weekend isn't enough time to learn my way around Metasploit. Oh well, I'll give it a try anyway.
 
 
 ## Raspberry Pi
