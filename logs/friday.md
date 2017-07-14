@@ -1,16 +1,11 @@
 # Friday Hack-a-Thon Log
 
 
-## 5 AM
+## 5 PM
 
-Woke up, jazzercised, ate half a mellon.
+Just got home from work.
 
-
-## 10:14 AM
-
-Had too much coffee.  I can see time.
-
-Everything is broken.
+> First things first: back up my hard drives.
 
 
 ## 11:37 PM
