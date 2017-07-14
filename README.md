@@ -1,11 +1,13 @@
 # The "I Wish I Were at DefCon 25" Hack-a-Thon
 
-I thought this year would finally be the year I would make it out to [DefCon 25](https://defcon.org/html/defcon-25/dc-25-index.html).  Rats.  Well, the conference is four days (July 27-30, 2017) and I have that weekend off, so I am going to have my own private Hack-a-Thon that weekend.  I will lock myself away and play with all the InfoSec / NetSec tools I can.  This Hack-a-Thon will be more about learning than building a single thing.
+I thought this year would finally be the year I would make it out to [DefCon 25](https://defcon.org/html/defcon-25/dc-25-index.html).  Rats.
+
+Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take that weekend off.  So I am going to throw my own Hack-a-Thon that weekend.  I will lock myself away from the world and experiment with all the InfoSec / penetration testing tools I can.
 
 
 ## Goals
 
-> Build a Raspberry Pi server and a LAMP webpage, and use that to test out: the Slow Loris attack, and all the various penetration-testing tools I can find in Kali Linux and the Metasploit textbook.
+> Try out a bunch of InfoSec and pentration tools I have never used. Build a Raspberry Pi web server using the LAMP stack and attack it. Start with Metasploit and Kali Linux.
 
 
 ## Logging the Hack-a-Thon
@@ -21,4 +23,4 @@ I will be logging all the progress and mistakes I make, as I go along.
 
 ## Want to Join In?
 
-Are you doing your own DefCon Hack-a-thon?  Tell me and I will add a link to your git repo, blog, or whatever.  Maybe if more people are involved you will follow through with *that idea* you keep meaning to try.
+Are you doing your own DefCon Hack-a-Thon?  Tell me, or edit this page with a pull request, and I will add a link to your  git repo, blog, or whatever.  We can build a list of everyone's separate Hack-a-thon and build one, giant virtual Hack-a-Thon to cheer each other on.
