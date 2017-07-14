@@ -7,14 +7,14 @@ Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take 
 
 ## Goals
 
-> Try out a bunch of InfoSec and pentration tools I have never used. Build a Raspberry Pi web server using the LAMP stack and attack it. Start with Metasploit and Kali Linux.
+> Try out a bunch of InfoSec and pentration tools. Build a Raspberry Pi web server using a LAMP stack and attack it. Start with Metasploit and Kali Linux.
 
 
 ## Logging the Hack-a-Thon
 
 I will be logging all the progress and mistakes I make, as I go along.
 
-* [Preparation](logs/early_prep.md) - Make a plan for the hack-a-thon, and collect what I'll need.
+* [Preparation](logs/early_prep.md) - Make a plan for the hack-a-thon, and collect what I will need.
 * **[Friday Night](logs/friday.md)** - Short day, just after work.
 * **[Saturday](logs/saturday.md)** - Full day.
 * **[Sunday](logs/sunday.md)** - Full day.
@@ -23,4 +23,4 @@ I will be logging all the progress and mistakes I make, as I go along.
 
 ## Want to Join In?
 
-Are you doing your own DefCon Hack-a-Thon?  Tell me, or edit this page with a pull request, and I will add a link to your  git repo, blog, or whatever.  We can build a list of everyone's separate Hack-a-thon and build one, giant virtual Hack-a-Thon to cheer each other on.
+Are you doing your own DefCon Hack-a-Thon?  Tell me, or edit this page with a pull request, and I will add a link to your git repo, blog, or whatever.  We can build a list of everyone's separate Hack-a-thons and build a giant, virtual Hack-a-Thon to cheer each other on.
