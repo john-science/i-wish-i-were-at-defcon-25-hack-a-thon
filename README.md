@@ -12,12 +12,13 @@ I thought this year would finally be the year I would make it out to [DefCon 25]
 
 I will be logging all the progress and mistakes I make, as I go along.
 
-* [Early Prep](logs/early_prep.md) - Make a plan for the hack-a-thon, and collect what I'll need.
-* [Friday Night](logs/friday.md) - Short day, just after work.
-* [Saturday](logs/saturday.md) - Full day.
-* [Sunday](logs/sunday.md) - Full day.
+* [Preparation](logs/early_prep.md) - Make a plan for the hack-a-thon, and collect what I'll need.
+* **[Friday Night](logs/friday.md)** - Short day, just after work.
+* **[Saturday](logs/saturday.md)** - Full day.
+* **[Sunday](logs/sunday.md)** - Full day.
+* [Post-Mortem](logs/the_post_mortem.md) - What did I learn?
 
 
-## Want to join in?
+## Want to Join In?
 
-Are you doing your own Hack-a-thon?  Tell me and I will add a link to your git repo, blog, or whatever.  Let's make this a virtual hack-a-thon!
+Are you doing your own DefCon Hack-a-thon?  Tell me and I will add a link to your git repo, blog, or whatever.  Maybe if more people are involved you will follow through with *that idea* you keep meaning to try.
