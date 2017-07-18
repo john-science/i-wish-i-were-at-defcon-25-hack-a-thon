@@ -7,7 +7,7 @@ Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take 
 
 ## Goals
 
-> Try out a bunch of InfoSec and pentration tools. Build a Raspberry Pi web server using a LAMP stack and attack it. Start with Metasploit and Kali Linux.
+> Build a LAMP stack website onto a Raspberry Pi. Try out a bunch of InfoSec and pentration tools on that website. Start with Metasploit and Kali Linux.
 
 
 ## Logging the Hack-a-Thon
