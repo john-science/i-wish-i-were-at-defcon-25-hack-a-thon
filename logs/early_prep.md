@@ -54,21 +54,28 @@ There are a couple of other things that I need, but I already have them:
 
 #### Software & Setup
 
+* [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) - Reddit community intro guide
+
 The RPi uses a microSD card as its hard drive. And it can support a number of OSs (including something called Windows 10 IoT, Ha!). Because I want this process to be fast, I will pick the standard Linux distro for the RPi: Raspbian. But if the Windows OS becomes popular, that will be an important target OS to test.
 
-Also, most people seem to start with a program called [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md) to install their OS.
-
-* [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) - Reddit community intro guide
-* [Installing OS Images](https://www.raspberrypi.org/documentation/installation/installing-images/) - Official Guide
-* [Installing OS Images - Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) - Official Guide
-* [Installing NOOBs and the OS](https://www.youtube.com/watch?v=6VmlfO7wL40)
-* [Installing RetroPie and Gaming](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS)
+Also, most people seem to start with a program called [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md) to automate the installation of their OS.  But I would just assume do it from the command line.
 
 First, I have to format the SD card:
 
 * [Method using mount & mkdosfs](https://www.techwalla.com/articles/format-sd-card-linux)
 * [Method using lsblk & parted](http://www.cio.com/article/3176034/linux/how-to-format-an-sd-card-in-linux.html)
 * [Method using the Gnome-Disk-Utility](https://askubuntu.com/questions/44557/how-to-format-partition-sd-card)
+
+Next I have to grab a disc image of the SO I want:
+
+* [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+* [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/)
+* [Retro Pie](https://retropie.org.uk/download/) - and some [tutorials](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS)
+
+Then I need to load the bootable disk image for that OS onto my Micro SD card:
+
+* [Official Raspberry Pi Guide](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
+* [Just use the Linux `dd` command](https://askubuntu.com/questions/179437/how-can-i-burn-a-raspberry-pi-image-to-sd-card-from-ubuntu)
 
 
 #### Abandoned Idea: WiFi on the Pi
