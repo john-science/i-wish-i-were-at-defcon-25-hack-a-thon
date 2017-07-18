@@ -58,12 +58,17 @@ The RPi uses a microSD card as its hard drive. And it can support a number of OS
 
 Also, most people seem to start with a program called [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md) to install their OS.
 
-
 * [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) - Reddit community intro guide
 * [Installing OS Images](https://www.raspberrypi.org/documentation/installation/installing-images/) - Official Guide
 * [Installing OS Images - Linux](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) - Official Guide
 * [Installing NOOBs and the OS](https://www.youtube.com/watch?v=6VmlfO7wL40)
 * [Installing RetroPie and Gaming](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS)
+
+First, I have to format the SD card:
+
+* [Method using mount & mkdosfs](https://www.techwalla.com/articles/format-sd-card-linux)
+* [Method using lsblk & parted](http://www.cio.com/article/3176034/linux/how-to-format-an-sd-card-in-linux.html)
+* [Method using the Gnome-Disk-Utility](https://askubuntu.com/questions/44557/how-to-format-partition-sd-card)
 
 
 #### Abandoned Idea: WiFi on the Pi
