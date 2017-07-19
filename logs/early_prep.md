@@ -70,7 +70,7 @@ Next I have to grab a disc image of the SO I want:
 
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 * [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/)
-* [Retro Pie](https://retropie.org.uk/download/) - and some [tutorials](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS)
+* [Retro Pie](https://retropie.org.uk/download/) - and some [tutorials](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS) and [guides](https://github.com/RetroPie/RetroPie-Setup)
 
 Then I need to load the bootable disk image for that OS onto my Micro SD card:
 
