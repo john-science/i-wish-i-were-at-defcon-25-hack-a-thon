@@ -5,31 +5,13 @@
 This is where I will organize my plan for the Hack-a-Thon. Then I will gather and collect what I need to start.
 
 
-## Security
+## Linux from Scratch
 
-> What do I want to learn? What can I learn in a weekend?
+* [Here](http://www.linuxfromscratch.org/lfs/view/stable/prologue/prerequisites.html) are some thoughts on prerequisites.
+* [Here](http://www.linuxfromscratch.org) is the Linux From Scratch (LFS) home page.
+* [Here](http://www.linuxfromscratch.org/lfs/view/development/) is the LFS book.
+* [Here](http://intestinate.com/pilfs/guide.html) is the LFS page for Raspberry Pi (PiLFS).
 
-
-#### Slow Loris
-
-Okay, I heard about a fun little protocol attack that can be made against Apache servers, and I would like to try it out. Maybe I can build a little [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) website to test it against. I will try to implement the attack in Java before the hack-a-thon and throw the code up on GitHub [here](https://github.com/theJollySin/AttackTheBlock).
-
-
-#### Penetration Testing - Kali Linux
-
-[Kali Linux](http://www.kali.org/) is a common Linux distro used by people for penetration testing. I think it is just an [SELinux](selinuxproject.org) distro with a bunch of penetration tools pre-installed. That doesn't sound like something an expert would need, but it sounds ideal for a beginner.
-
-[This](https://www.youtube.com/watch?v=vg9cNFPQFqM) seems like a good newbie indtroduction to Kali Linux. It is a 15-hour YouTube tutorial. Maybe I will hate it and have to find something else. We will see.
-
-
-#### Penetration Testing - Metasploit
-
-* [Metasploit Framework](https://github.com/rapid7/metasploit-framework) - popular tool for developing and testing exploit code against a remote target
-* [Metasploit](https://www.goodreads.com/book/show/10545174-metasploit) - $ 20 used - popular textbook
-
-I was watching a presentation from DefCon 23 and someone (I forget who) mentioned that the Metasploit Framework was a popular pentatration testing tool. And he said he used this textbook to teach students. The Amazon reviews say the textbook is a little out-of-date, but I can handle that.
-
-If there is an entire textbook, maybe one weekend isn't enough time to learn my way around Metasploit. Oh well, I'll give it a try anyway.
 
 
 ## Raspberry Pi
@@ -81,4 +63,10 @@ Then I need to load the bootable disk image for that OS onto my Micro SD card:
 #### Abandoned Idea: WiFi on the Pi
 
 I was looking at [various](http://raspberrypihq.com/how-to-turn-a-raspberry-pi-into-a-wifi-router/) [guides](https://pimylifeup.com/raspberry-pi-wireless-access-point/) [online](https://jacobsalmela.com/2014/05/19/raspberry-pi-and-routing-turning-a-pi-into-a-router/) for turning your Raspberry Pi into a wireless router, so I can do all this wirelessly. Then I found out the RPi 3 has a built-in WiFi card. Great. Moving on.
+
+
+## Slow Loris
+
+Okay, I heard about a fun little protocol attack that can be made against Apache servers, and I would like to try it out. Maybe I can build a little [LAMP](https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29) website to test it against. I will try to implement the attack in Java before the hack-a-thon and throw the code up on GitHub [here](https://github.com/theJollySin/AttackTheBlock).
+
 
