@@ -11,6 +11,8 @@ It is time to dig deeper.
 
 I have been using `cp` to copy files for so long I no longer think about what it is doing. But I / we can't use `cp` to overwrite a hard drive with a disk image. This is because the `cp` tool has to work *within* a filesystem. For disk image creation I used `dd`, which allowed me to overwrite the partition tables and filesystem with a disk image.
 
+This means you can use `dd` to [create disk images](https://askubuntu.com/questions/299081/how-do-i-create-a-backup-image-of-an-sd-card#299090).
+
 
 ## Open Source Projects
 
