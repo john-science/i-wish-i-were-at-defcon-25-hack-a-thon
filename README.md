@@ -2,12 +2,12 @@
 
 I thought this year would finally be the year I would make it out to [DefCon 25](https://defcon.org/html/defcon-25/dc-25-index.html).  Rats.
 
-Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take that weekend off.  So I am going to throw my own Hack-a-Thon that weekend.  I will lock myself away from the world and experiment with all the InfoSec / penetration testing tools I can.
+Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take that weekend off.  So I am going to throw my own Hack-a-Thon that weekend.  I will lock myself away from the world and bulid my own Linux distribution from scratch.  If I have time left, I will use that distro to server up a LAMP website and do some penetration testing.
 
 
 ## Goals
 
-> Build a LAMP stack website onto a Raspberry Pi. Try out a bunch of InfoSec and pentration tools on that website. Start with Metasploit and Kali Linux.
+> Build a Linux distro from scratch on a Raspberry Pi. Build a LAMP-stack website on that Pi, and attack it with Slow Loris.
 
 
 ## Logging the Hack-a-Thon
