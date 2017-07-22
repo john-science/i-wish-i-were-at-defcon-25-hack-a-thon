@@ -21,7 +21,7 @@ If I want to try almost anything in the InfoSec / NetSec fields, I need a second
 
 #### Hardware
 
-After looking around, the cheapest Raspberry Pi solution was a to get the Vilros kit on Amazon. Several of these kits were a complete rip-off, but this one has only the components I would buy separately, but for cheaper than I could buy them.
+After looking around, the cheapest Raspberry Pi solution was a to get the Vilros kit on Amazon.Some Pi kits looked likecomplete rip-offs, but the Vitros one has only the components I would buy separately, but for cheaper than I could buy them.
 
 Here is what I bought:
 
@@ -36,6 +36,10 @@ There are a couple of other things that I need, but I already have them:
 
 
 #### Software & Setup
+
+It looks like I will need multiple partitions. At the very least 3: a small one for swap, one for the Raspbian OS, and at least one for the LFS build.
+
+More to come on disk partitioning.
 
 * [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) - Reddit community intro guide
 
