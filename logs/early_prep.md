@@ -32,6 +32,7 @@ There are a couple of other things that I need, but I already have them:
 
 * HDMI Cable
 * USB Keyboard
+* USB Mouse
 
 
 #### Software & Setup
