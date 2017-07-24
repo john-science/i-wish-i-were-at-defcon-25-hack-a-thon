@@ -40,6 +40,7 @@ I need three partitions on my (32GB) micro SD card:
 
 I will probably use `fdisk` to do the partitioning. [Here](http://tldp.org/HOWTO/Partition/fdisk_partitioning.html) is a good introduction to `fdisk`.
 
+[Here](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) is the official guide for installing the Raspbian OS.
 
 ## Linux from Scratch
 
