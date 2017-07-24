@@ -12,6 +12,13 @@ This is where I will organize my plan for the Hack-a-Thon. Then I will gather an
 * [Here](http://www.linuxfromscratch.org/lfs/view/development/) is the LFS book.
 * [Here](http://intestinate.com/pilfs/guide.html) is the LFS page for Raspberry Pi (PiLFS).
 
+Step 1 appears to be that I need to partition my SD card so that it has three partitions:
+
+1. A small swap partition - about 2GB
+2. A partition for the LFS build - about 20GB
+3. A partition for the Raspbian OS - remaining ~10GB
+
+A good introduction to using `fdisk` to make this partitions is [here](http://tldp.org/HOWTO/Partition/fdisk_partitioning.html).
 
 
 ## Raspberry Pi
