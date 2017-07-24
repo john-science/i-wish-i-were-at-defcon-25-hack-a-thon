@@ -1,41 +1,27 @@
 # Early Preparation for the Hack-a-Thon
 
-> I need to make a plan.
+> I need a plan.
 
-This is where I will organize my plan for the Hack-a-Thon. Then I will gather and collect what I need to start.
-
-
-## Linux from Scratch
-
-* [Here](http://www.linuxfromscratch.org/lfs/view/stable/prologue/prerequisites.html) are some thoughts on prerequisites.
-* [Here](http://www.linuxfromscratch.org) is the Linux From Scratch (LFS) home page.
-* [Here](http://www.linuxfromscratch.org/lfs/view/development/) is the LFS book.
-* [Here](http://intestinate.com/pilfs/guide.html) is the LFS page for Raspberry Pi (PiLFS).
-
-Step 1 appears to be that I need to partition my SD card so that it has three partitions:
-
-1. A small swap partition - about 2GB
-2. A partition for the LFS build - about 20GB
-3. A partition for the Raspbian OS - remaining ~10GB
-
-A good introduction to using `fdisk` to make this partitions is [here](http://tldp.org/HOWTO/Partition/fdisk_partitioning.html).
+The hack-a-thon is unlikely to be successful if I don't have a plan going into it. This is where I will gather my thoughts.
 
 
 ## Raspberry Pi
 
-If I want to try almost anything in the InfoSec / NetSec fields, I need a second computer. The cheapest solution is probably to use a Raspberry Pi (RPi) to create a little Linux server. Plus, I have been looking for an excuse to get a Raspberry Pi.
+I will be building a Linux-from-Scratch (LFS) distro on a Raspberry Pi (RPi). This will give me a lot of freedom with my RPi later, to build little LAMP servers and do some back penetration testing.
+
+There are probably many great resources online for RPi tinkerers.  So far the [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) subreddit intro guide seems like a good place to start. Though the [official guide](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) also seems good.
 
 
 #### Hardware
 
-After looking around, the cheapest Raspberry Pi solution was a to get the Vilros kit on Amazon.Some Pi kits looked likecomplete rip-offs, but the Vitros one has only the components I would buy separately, but for cheaper than I could buy them.
+After looking around, the cheapest Raspberry Pi solution was a to get the Vilros kit on Amazon. Some Pi kits looked like complete rip-offs, but the Vitros one only has the components I would buy separately, but for cheaper than I could get them.
 
 Here is what I bought:
 
 * [Vilros Raspberry Pi kit](https://www.amazon.com/gp/product/B01D92SSX6) - $50
 * [32 GB Micro SD Card](https://www.amazon.com/gp/product/B06XWN9Q99) - $13
 
-There are a couple of other things that I need, but I already have them:
+There are a couple of other things that I needed, but I already had them:
 
 * HDMI Cable
 * USB Keyboard
@@ -44,37 +30,27 @@ There are a couple of other things that I need, but I already have them:
 
 #### Software & Setup
 
-It looks like I will need multiple partitions. At the very least 3: a small one for swap, one for the Raspbian OS, and at least one for the LFS build.
+The first step here is to install a working Linux OS onto the Raspberry Pi, and create a partition for LFS build.
 
-More to come on disk partitioning.
+I need three partitions on my (32GB) micro SD card:
 
-* [/r/raspberry_pi/](https://www.reddit.com/r/raspberry_pi/comments/41vbs8/new_persons_guide_to_the_pi_and_updated_example/) - Reddit community intro guide
+1. A partition for the LFS build - about 20GB
+2. A small swap partition - about 2GB
+3. A partition for the [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) OS - remaining ~10GB
 
-The RPi uses a microSD card as its hard drive. And it can support a number of OSs (including something called Windows 10 IoT, Ha!). Because I want this process to be fast, I will pick the standard Linux distro for the RPi: Raspbian. But if the Windows OS becomes popular, that will be an important target OS to test.
-
-Also, most people seem to start with a program called [NOOBS](https://www.raspberrypi.org/documentation/installation/noobs.md) to automate the installation of their OS.  But I would just assume do it from the command line.
-
-First, I have to format the SD card:
-
-* [Method using mount & mkdosfs](https://www.techwalla.com/articles/format-sd-card-linux)
-* [Method using lsblk & parted](http://www.cio.com/article/3176034/linux/how-to-format-an-sd-card-in-linux.html)
-* [Method using the Gnome-Disk-Utility](https://askubuntu.com/questions/44557/how-to-format-partition-sd-card)
-
-Next I have to grab a disc image of the SO I want:
-
-* [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
-* [Kali Linux](https://www.offensive-security.com/kali-linux-arm-images/)
-* [Retro Pie](https://retropie.org.uk/download/) - and some [tutorials](https://www.youtube.com/playlist?list=PLyPLRL6HIOqqXNmP2t19y0rphpiedNwNS) and [guides](https://github.com/RetroPie/RetroPie-Setup)
-
-Then I need to load the bootable disk image for that OS onto my Micro SD card:
-
-* [Official Raspberry Pi Guide](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md)
-* [Just use the Linux `dd` command](https://askubuntu.com/questions/179437/how-can-i-burn-a-raspberry-pi-image-to-sd-card-from-ubuntu)
+I will probably use `fdisk` to do the partitioning. [Here](http://tldp.org/HOWTO/Partition/fdisk_partitioning.html) is a good introduction to `fdisk`.
 
 
-#### Abandoned Idea: WiFi on the Pi
+## Linux from Scratch
 
-I was looking at [various](http://raspberrypihq.com/how-to-turn-a-raspberry-pi-into-a-wifi-router/) [guides](https://pimylifeup.com/raspberry-pi-wireless-access-point/) [online](https://jacobsalmela.com/2014/05/19/raspberry-pi-and-routing-turning-a-pi-into-a-router/) for turning your Raspberry Pi into a wireless router, so I can do all this wirelessly. Then I found out the RPi 3 has a built-in WiFi card. Great. Moving on.
+Okay, now that I have an OS on my RPi it is connected to a monitor (TV) and keyboard. I can start working through the LFS introduction and prerequisites.
+
+* [Here](http://www.linuxfromscratch.org/lfs/view/stable/prologue/prerequisites.html) are some thoughts on prerequisites.
+* [Here](http://www.linuxfromscratch.org) is the Linux From Scratch (LFS) home page.
+* [Here](http://www.linuxfromscratch.org/lfs/view/development/) is the LFS book.
+* [Here](http://intestinate.com/pilfs/guide.html) is the LFS page for Raspberry Pi (PiLFS).
+
+This does not like like a short process.
 
 
 ## Slow Loris
