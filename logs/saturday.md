@@ -114,3 +114,9 @@ Finally, they want `sh` to just be a symlink to `bash`, but the RPi comes defaul
 
 We start by compiling `binutils` in [Section 5.4](http://www.linuxfromscratch.org/lfs/view/development/chapter05/binutils-pass1.html).
 
+> Success!
+
+It took 11m33.499s to compile Binutils on my Raspberry Pi 3. So that is my 1 SBU.
+
+Now onto GCC.
+
