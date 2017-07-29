@@ -145,3 +145,9 @@ Damn.  Those are important in bash.
 
 I am sitting here playing around with various custom key maps.  But this is not what I wanted to spend my time on.
 
+
+## 8:15PM - The Big Download
+
+* [Chapter 3. Packages and Patches](http://www.linuxfromscratch.org/lfs/view/development/chapter03/introduction.html)
+
+Okay, now I have to download a bunch of packages worth of source code and probably some kernel stuff.  I fully expect this to take a long time, over the WIFI on my Raspberry Pi.
