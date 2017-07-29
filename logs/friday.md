@@ -137,14 +137,11 @@ Next it says I need to mount my swap partition. Fair enough.
 
 ## 8PM - Cheap-Ass Keyboard Disaster
 
-I didn't have a USB keyboard lying around, and I wanted one for my Raspberry Pi. So I got some cheap model off Amazon, and two of the keys are broken!
+I bought a cheap USB keyboard on Amazon for this project.
 
-I cannot type `#` or `|` on that stupid keyboard.
+> The # and | keys are broken.
 
-So I just wasted 20 minutes trying to re-map these keys, so I could pipe command in Linux.  But... I guess not today!
+Damn.  Those are important in bash.
 
-I should have just spent the extra $5.  I'd like to return this POS, but I won't be able to get a new one by tomorrow morning, so I'm stuck with it.
-
-
-
+I am sitting here playing around with various custom key maps.  But this is not what I wanted to spend my time on.
 
