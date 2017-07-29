@@ -172,3 +172,8 @@ And, if all goes well, we can just use `wget` again to retrieve all the packages
 
 Nom nom nom...
 
+## 9PM - Done for the Night
+
+Shower and Bed
+
+Chapters 4 and 5 tomorrow.
