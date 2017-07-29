@@ -56,21 +56,36 @@ I am going to go out and buy a new keyboard.
 
 ## 10:30AM - New Keyboard Broken!
 
-Oh no! The new keyboard is also broken!
+> Oh no! The new keyboard is also broken!
 
-I guess that means it is a software problem.  Okay, so I will look online for other RPi users with this problem...
-
-Okay, apparently the Raspberry Pi comes configured for British keyboards.  So I was able to fix that with the NCURSES menu under:
+Okay, so this is clearly a software problem. Looking online I find out that the Raspberry Pi come localized for the United Kingdom.  What weird keyboards they must have.  I was able to fix that with the NCURSES menu under:
 
     $ sudo raspi-config
 
-## 10:40AM - Setting up the Environment
+
+## 110AM - Setting up the Environment
 
 Setting up the Environment
 
-I pretty much just followed the commands in [Section 4.4](http://www.linuxfromscratch.org/lfs/view/development/chapter04/settingenvironment.html).
+I pretty much just followed the commands in [Section 4.4](http://www.linuxfromscratch.org/lfs/view/development/chapter04/settingenvironment.html) to create a `.bash_profile` and `.bashrc` file for the new `lfs` user.
 
+## 11:15AM - A Temporary System
 
-## 11:37 PM
+Taken from [Chapter 5 - Constructing a Temporary System](http://www.linuxfromscratch.org/lfs/view/development/chapter05/chapter05.html).
 
-Drunk.  Watching the news to see if I get caught.
+First things first, I opened up the `binutils` source and tried to find the target triple for my build:
+
+    $ ./config.guess
+    arm71-unknown-linux-gnueabihf
+
+So, that's a mouthfull. I hope it's supported.
+
+And the book says I need to know what glibc linker I have on my current system:
+
+    $ readelf -l /bin/ping | grep interpreter
+    /lib/ld-linux-armhf.so.3
+
+Okay, so I am reading through the next few stages.
+
+> Do you want live-streaming videos of me reading?!?  Oh, the excitment.
+
