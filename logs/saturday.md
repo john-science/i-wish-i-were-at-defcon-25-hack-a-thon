@@ -89,3 +89,28 @@ Okay, so I am reading through the next few stages.
 
 > Do you want live-streaming videos of me reading?!?  Oh, the excitment.
 
+## 11:45AM - Host Requirments Review
+
+Okay, that reading did lead to some system reconfiguration.
+
+First off, I needed to install `bison`, which is some sort of compiler-compiler for parsing language syntaxes.  I cheated and used `apt-get`:
+
+    $ sudo apt-get install bison
+    $ sudo unlink /usr/bin/yacc
+    $ sudo ln -s /usr/bin/bison /usr/bin/yacc
+
+And for reasons I can't possibly imagine, they want me to use `gawk` instead of `awk`, fine:
+
+    $ sudo apt-get install gawk
+    $ sudo unlink /usr/bin/awk
+    $ sudo ln -s /usr/bin/gawk /usr/bin/awk
+
+Finally, they want `sh` to just be a symlink to `bash`, but the RPi comes default with `dash`. Easy fix:
+
+    $ sudo unlink /bin/sh
+    $ sudo ln -s /bin/bash /bin/sh
+
+## High Noon - Finally Compiling Something
+
+We start by compiling `binutils` in [Section 5.4](http://www.linuxfromscratch.org/lfs/view/development/chapter05/binutils-pass1.html).
+
