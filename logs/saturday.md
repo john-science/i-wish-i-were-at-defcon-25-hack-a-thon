@@ -124,8 +124,8 @@ Now onto GCC.
 
 After more than two hours compiling, GCC failed to compile "all".  So, let's hope I can figure out why and it works the second time.  Otherwise this will be the longest debug turn-around time in history.
 
-Okay, I have no idea if this will fix it, but I did find an error in my config statement. I used `--disable-multi-lib` instead of `--disable-multilib`.  I guess my only clear option is to fix that and run this two-hour test again.
+Okay, I have no idea if this will fix the problem, but I did find two errors in my config statement. I used `--disable-multi-lib` instead of `--disable-multilib`, and I misspelled `--disable-libatmoic`.  I guess my only clear option is to fix that and run this two-hour test again.
 
 Sigh.
 
-
+> Trying to make GCC again.
