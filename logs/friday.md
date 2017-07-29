@@ -20,9 +20,10 @@ First, I need to format my 32GB micro SD card. To start, I need it's name:
 
 Before I can format it, I need to unmount it:
 
-    $ unmount /dev/mmcblk1p1
+    $ umount /dev/mmcblk1p1
 
-Whoops `unmount` command not found. I probably should have installed it, but instead I just hit "eject" on the disk from the GUI.  Same deal.
+I first I thought `unmount` was not installed. But, actually it is `umount`.  Somebody trying to save themselves one keystroke 30 years ago. How convenient.
+
 
 Now I just need to format it:
 
@@ -110,4 +111,40 @@ Anyway, I went ahead and resized the main 32GB Raspbian OS parition (`ext4`) int
 Now, did I ruin anything? Will the Raspberry Pi still boot?
 
 > It still booted!
+
+## 7PM - Getting Started for Real
+
+* [2.6 - Setting The $LFS Variable](http://www.linuxfromscratch.org/lfs/view/development/chapter02/aboutlfs.html)
+
+Okay, now that I have a computer to build my Linux-From-Scratch (LFS) Operating System on, I have fullfilled all the early steps in the book.  Now we have to set a `LFS` environment variable in Bash. In this case, pointed to the mount point of the partition I want to build in:
+
+    $ export LFS=/mnt/lfs
+
+* [2.7. Mounting the New Partition](http://www.linuxfromscratch.org/lfs/view/development/chapter02/mounting.html)
+
+Right, but that is only helpful if we actually mount the damn partition:
+
+    $ sudo mkdir -pv $LFS
+    $ sudo mount -v -t ext4 /dev/mmcblk0p3 $LFS
+
+Okay, I just went down a long rabbit hole regaurding `nosuid` and `nodev` parameters being set on my LFS partition.  The book just says `remount` the partition to remove them, but these settings seem to be separate for the `/dev/mmcblk0p3` and `/mnt/lfs` items in the `mount` print-out.  Why? I have no idea.  But I managed to fix the mount point, just not the original partition. For now I'm going to assume that is good enough and move on.
+
+> Fingers crossed.
+
+Next it says I need to mount my swap partition. Fair enough.
+
+    $ sudo /sbin/swapon -v /dev/mmcblk0p4
+
+## 8PM - Cheap-Ass Keyboard Disaster
+
+I didn't have a USB keyboard lying around, and I wanted one for my Raspberry Pi. So I got some cheap model off Amazon, and two of the keys are broken!
+
+I cannot type `#` or `|` on that stupid keyboard.
+
+So I just wasted 20 minutes trying to re-map these keys, so I could pipe command in Linux.  But... I guess not today!
+
+I should have just spent the extra $5.  I'd like to return this POS, but I won't be able to get a new one by tomorrow morning, so I'm stuck with it.
+
+
+
 
