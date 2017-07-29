@@ -63,7 +63,14 @@ Success!
 Installation was a breeze.  Before ejecting the SD card from my laptop, I ran `sync` from the command line, just to clear ensure the write process was complete and it was safe.
 
 
-## 6PM - Re-Partition the Hard Drive
+## 6PM - Connect to WIFI - Wasting Time
+
+Oh look, I can connect to WIFI because my Raspberry Pi 3 has a WIFI card. Cool.
+
+...Luckily, I only wasted 15 minutes surfing the internet.
+
+
+## 6:15PM - Re-Partition the Hard Drive
 
 Okay, by default the Raspbian OS takes up the entire 32GB of my micro SD card. But I need to add a partition for my LFS build.
 
@@ -71,6 +78,36 @@ Here are a couple  guides for re-partitioning the SD card:
 
 * [a StackOverflow answer](https://raspberrypi.stackexchange.com/questions/499/how-can-i-resize-my-root-partition)
 * [AdaFruit post](https://learn.adafruit.com/resizing-raspberry-pi-boot-partition/edit-partitions)
+
+First, I will try this with the Linux GUI program `gparted`, it seems pretty standard.  First, install it:
+
+    $ sudo apt-get install gparted
+
+Next, run it:
+
+    $ gparted
+
+And I see something like this:
+
+![gparted started](/resources/gparted_started.png)
+
+Okay, first things first, I want to save off the boot partition on the SD card in case I nuke it (which I think I might have to):
+
+    $ sudo cp -r /dev/mmcblk1p1 .
+
+It is at this point I decided I needed to unmount all the paritions on the SD card.  But... they are already unmounted.  I have no idea how that happened.  Or how I could copy from them if they are unmounted.
+
+> Spooky
+
+Anyway, I went ahead and resized the main 32GB Raspbian OS parition (`ext4`) into three partitions:
+
+* 8 GB Raspbian OS partition (`ext4`)
+* 22 GB partition for the LFS build (`ext4`)
+* 2 GB swap partition (`linux-swap`)
+
+![repartition with gparted](/resources/repartitioned.png)
+
+Now, did I ruin anything? Will the Raspberry Pi still boot?
 
 
 ## 11:37 PM
