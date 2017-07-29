@@ -167,3 +167,8 @@ And, if all goes well, we can just use `wget` again to retrieve all the packages
 
 > And now we play the waiting game...
 > The waiting game is boring, let's play Hungry, Hungry Hippos.
+
+## 8:30 - Dinner
+
+Nom nom nom...
+
