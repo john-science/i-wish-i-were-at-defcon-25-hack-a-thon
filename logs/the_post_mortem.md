@@ -40,6 +40,7 @@ Less important things I learned.
 This is just a place for things I am learning about that I will try to write down more fully later.
 
 * The Extended Partition
+* [.bashrc vs .bash_profile](https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment)
 
 
 ### InfoSec Terminology
