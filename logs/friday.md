@@ -109,7 +109,5 @@ Anyway, I went ahead and resized the main 32GB Raspbian OS parition (`ext4`) int
 
 Now, did I ruin anything? Will the Raspberry Pi still boot?
 
+> It still booted!
 
-## 11:37 PM
-
-Drunk.  I think my Raspberry Pi just ordered a pizza from Russia.
