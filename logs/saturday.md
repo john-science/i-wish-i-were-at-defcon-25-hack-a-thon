@@ -120,3 +120,12 @@ It took 11m33.499s to compile Binutils on my Raspberry Pi 3. So that is my 1 SBU
 
 Now onto GCC.
 
+## 3pm - GCC Compile Failed
+
+After more than two hours compiling, GCC failed to compile "all".  So, let's hope I can figure out why and it works the second time.  Otherwise this will be the longest debug turn-around time in history.
+
+Okay, I have no idea if this will fix it, but I did find an error in my config statement. I used `--disable-multi-lib` instead of `--disable-multilib`.  I guess my only clear option is to fix that and run this two-hour test again.
+
+Sigh.
+
+
