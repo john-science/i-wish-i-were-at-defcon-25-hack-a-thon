@@ -19,6 +19,9 @@ Okay, so I had to re-mount the stupid `$LFS` partition and swap space and everyt
     $ sudo mount -v -t ext4 /dev/mmcblk0p3 $LFS
     $ sudo /sbin/swapon -v /dev/mmcblk0p4
 
+I am pretty sure that stuff needs to get put into the `/etc/fstab` file.  But... syntax.
+
+
 OKAY, NOW I am ready to start Chapter 4.  First, we create some working directories:
 
     $ sudo mkdir $LFS/usr
@@ -45,7 +48,25 @@ And, finally, I log in as `lfs`:
 
     $ su - lfs
 
-## 9:30AM - Setting up the Environment
+## 9:30AM - Keyboard Troubles
+
+> It is impossible to type a quote (`#`) or a backslash (`\`) on that keyboard! Ugh.
+
+I am going to go out and buy a new keyboard.
+
+## 10:30AM - New Keyboard Broken!
+
+Oh no! The new keyboard is also broken!
+
+I guess that means it is a software problem.  Okay, so I will look online for other RPi users with this problem...
+
+Okay, apparently the Raspberry Pi comes configured for British keyboards.  So I was able to fix that with the NCURSES menu under:
+
+    $ sudo raspi-config
+
+## 10:40AM - Setting up the Environment
+
+Setting up the Environment
 
 I pretty much just followed the commands in [Section 4.4](http://www.linuxfromscratch.org/lfs/view/development/chapter04/settingenvironment.html).
 
