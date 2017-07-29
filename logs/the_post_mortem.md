@@ -41,6 +41,7 @@ This is just a place for things I am learning about that I will try to write dow
 
 * The Extended Partition
 * [.bashrc vs .bash_profile](https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment)
+* ld vs ln... whoops.
 
 
 ### InfoSec Terminology
