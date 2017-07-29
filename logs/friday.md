@@ -7,7 +7,7 @@ Just got home from work.
 
 > First things first: back up my hard drives.
 
-## 4:20 PM
+## 4:20 PM - Formatting the SD Card
 
 Okay, I've decided to just install Raspbian on my Raspberry Pi 3 micro SD card and I will try to re-partition the hard drive after.
 
@@ -30,7 +30,42 @@ Now I just need to format it:
 
 (Why, you may ask, did I choose the FAT32 file system? Good question. I have no idea.)
 
+Now I will use the Gnome Disk Utility to check that the formatting worked correctly.
 
+![screenshot of formatting success](/resources/sd_formatted.png)
+
+Huzzah!
+
+
+## 4:30 PM - Installng the Raspbian OS
+
+I got the Raspbian OS from the official download site [here](https://www.raspberrypi.org/downloads/raspbian/).
+
+>  WHoops. It says the download will take an hour.
+
+Ain't nobody got time for that.  Okay, let's read ahead. To install the Raspbian OS, I will follow the offical Linux guide [here](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md).
+
+
+## 5:45PM - Raspbian Finally Downloaded
+
+Okay, Raspbian finally downloaded.  Yeesh.
+
+I copied the Raspbian disc image over using the command:
+
+    sudo dd bs=4M if=2017-07-05-raspbian-jessie.img of=/dev/mmcblk1 conv=fsync
+
+This command takes a few minutes. Note that I had to copy ofer the whole drive name, not just a single partition (`mmcbblk1p1`).
+
+![Raspbian OS Installed](/resources/raspbian_install_success.jpg)
+
+Success!
+
+Installation was a breeze.  Before ejecting the SD card from my laptop, I ran `sync` from the command line, just to clear ensure the write process was complete and it was safe.
+
+
+## 6PM - Re-Partition the Hard Drive
+
+Okay, by default the Raspbian OS takes up the entire 32GB of my micro SD card. But I need to add a partition for my LFS build.
 
 Here are a couple  guides for re-partitioning the SD card:
 
