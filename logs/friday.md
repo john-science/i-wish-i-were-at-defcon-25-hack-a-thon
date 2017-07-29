@@ -151,3 +151,19 @@ I am sitting here playing around with various custom key maps.  But this is not 
 * [Chapter 3. Packages and Patches](http://www.linuxfromscratch.org/lfs/view/development/chapter03/introduction.html)
 
 Okay, now I have to download a bunch of packages worth of source code and probably some kernel stuff.  I fully expect this to take a long time, over the WIFI on my Raspberry Pi.
+
+First, we will create a directory for all the source code to live while I am working:
+
+    $ sudo mkdir -v $LFS/sources
+    $ sudo chmod 755 $LFS/sources
+
+Now we need to grab the list of package web addresses:
+
+    $ wget http://www.linuxfromscratch.org/lfs/view/development/wget-list
+
+And, if all goes well, we can just use `wget` again to retrieve all the packages:
+
+    $ wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
+
+> And now we play the waiting game...
+> The waiting game is boring, let's play Hungry, Hungry Hippos.
