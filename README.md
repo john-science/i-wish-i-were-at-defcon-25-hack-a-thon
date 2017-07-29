@@ -2,7 +2,7 @@
 
 I thought this year would finally be the year I would make it out to [DefCon 25](https://defcon.org/html/defcon-25/dc-25-index.html).  Rats.
 
-Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take that weekend off.  So I am going to throw my own Hack-a-Thon that weekend.  I will lock myself away from the world and bulid my own Linux distribution from scratch.  If I have time left, I will use that distro to server up a LAMP website and do some penetration testing.
+Well, okay.  The if the conference is four days (July 27-30, 2017) I bet I take that weekend off.  So I am going to throw my own Hack-a-Thon that weekend.  I will lock myself away from the world and build my own Linux distribution from scratch.  If I have time left, I will use that distro to server up a LAMP website and do some penetration testing.
 
 
 ## Goals
