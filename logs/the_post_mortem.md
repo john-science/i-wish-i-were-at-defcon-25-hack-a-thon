@@ -35,6 +35,13 @@ These projects are in languages I know well and might otherwise be a good place 
 Less important things I learned.
 
 
+## TODO
+
+This is just a place for things I am learning about that I will try to write down more fully later.
+
+* The Extended Partition
+
+
 ### InfoSec Terminology
 
 I finally sorted all of these out in my head.
