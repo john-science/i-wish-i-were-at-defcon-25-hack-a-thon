@@ -6,7 +6,7 @@
 Woke up, jazzercised, ate half a mellon.
 
 
-## 9 AM - Wake, Have Coffee
+## 9 AM - Awake, Have Coffee
 
 Okay, I am awake for real this time. I have coffee.  And I'm ready to hit [Chapter 4](http://www.linuxfromscratch.org/lfs/view/development/chapter04/creatingtoolsdir.html).
 
