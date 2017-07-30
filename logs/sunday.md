@@ -6,13 +6,8 @@
 Woke up, jazzercised, ate half a mellon.
 
 
-## 10:14 AM
+## 7 AM - Back at It
 
-Had too much coffee.  I can see time.
-
-Everything is broken.
+The GCC `make` succeeded.  Now for `make install` and to try glibc again.  Fingers crossed... again.
 
 
-## 11:37 PM
-
-Drunk.  Successfully penetrated the toaster.  Apparently it is running Mint OS.  I should check that out.
