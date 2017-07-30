@@ -22,3 +22,24 @@ I also just found out that (I think) I can do `make -j 4` and run the build in p
 
 Okay, I'm going for a run while this works.
 
+## 8 AM - SUCCESS!
+
+Success! This time glibc compiled and when I run this little test:
+
+  echo 'int main(){}' > dummy.c
+  $LFS_TGT-gcc dummy.c
+  readelf -l a.out | grep ': /tools'
+
+I get the appropriate feedback:
+
+    [Requesting program interpreter: /tools/lib/ld-linux.so.2]
+
+On to the standard C++ libraries
+
+Success again!
+
+## 8:30 AM - BinUtils - Pass 2
+
+Let's try this. I'm feeling pretty confident.
+
+But first... what am I re-building BinUtils already?
