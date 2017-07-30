@@ -129,3 +129,8 @@ Okay, I have no idea if this will fix the problem, but I did find two errors in 
 Sigh.
 
 > Trying to make GCC again.
+
+## 5PM - GCC Still Compiling
+
+It is occurring to me just now that there is now way for me to compile this entire OS this weekend.  The little ARM processor in this Raspberry Pi just won't be fast enough to get it done in 48 hours.  So... that's a thing I'm learning.
+
