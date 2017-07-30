@@ -138,3 +138,7 @@ It is occurring to me just now that there is now way for me to compile this enti
 
 GCC finally finished compiling!  109 minutes.  Whew.  Now let's try installing it...
 
+## 5:17PM - It installed!
+
+Okay, GCC is in.  Time to work on the Linux kernel.
+
