@@ -96,3 +96,10 @@ Okay, well, I guess I will opt for something in between.  Most of the [Chapter 6
 > Either I won't finish this project due to time or I use the stupid run scripts.  Sigh.
 
 I guess I will try the RPi3 run script for chapter 6.
+
+
+## 3:30 PM - Or... Not
+
+Okay, after an hour of working through chapter 6 I thought I was to the point to run the PiLFS chapter 6 run script.  But there are problems.  Namely, after a `chroot` command, the terminal no longer knows where `/bin/bash` is.  So... I can't run the bash script.
+
+Okay, let's look at this again.
