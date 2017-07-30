@@ -134,3 +134,7 @@ Sigh.
 
 It is occurring to me just now that there is now way for me to compile this entire OS this weekend.  The little ARM processor in this Raspberry Pi just won't be fast enough to get it done in 48 hours.  So... that's a thing I'm learning.
 
+## 5:15PM - It finished!
+
+GCC finally finished compiling!  109 minutes.  Whew.  Now let's try installing it...
+
