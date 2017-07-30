@@ -75,3 +75,24 @@ Actually, these next few seem like small fry, and things are really clipping alo
 
 So I am starting with the Check install [here](http://www.linuxfromscratch.org/lfs/view/development/chapter05/check.html), and I will report back in a bit.
 
+
+## 2:30 PM - Chapter 5 Complete!
+
+Okay, Chapter 5 is complete.  I now have a working (albeit temporary) OS for my build.
+
+I estimate it will take about 12-20 hours for all of the compiling and building in Chapter 6.  I think,   And that's if everything is automated; it would be much slower if I did it by hand. Obviously.
+
+So, no, I can't actually complete this hack-a-thon in the 48-hour weekend.  It's going to spill over into tomorrow.
+
+I have a couple of options:
+
+  * plunge ahead and take tomorrow off of work
+  * plunge ahead and do it piece-meal after work throughout the coming week
+  * stop now, and reflect on what I've actually learned. Focus on the learning.
+  * something in between
+
+Okay, well, I guess I will opt for something in between.  Most of the [Chapter 6](http://www.linuxfromscratch.org/lfs/view/development/part3.html) will just be building more packages in the right order.  There are run scripts for that.  I didn't want to use them, but they will at least afford me the opportunity to finish the build and make the LFS system bootable.  And I can do some learning there.
+
+> Either I won't finish this project due to time or I use the stupid run scripts.  Sigh.
+
+I guess I will try the RPi3 run script for chapter 6.
