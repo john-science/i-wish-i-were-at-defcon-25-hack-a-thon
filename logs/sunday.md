@@ -49,4 +49,15 @@ But first... what am I re-building BinUtils already?
 ## 8:45 AM - GCC - Pass 2
 
 On a roll this morning. We'll see if it holds out.
+
 Pass 2 for GCC is running...
+
+> It worked! I tested with a dummy program and it worked!
+
+So we're doing a LOT better than yesterday.
+
+
+## Noon - Into the Core
+
+Well, GCC took FOREVER to compile, but here we are.
+
