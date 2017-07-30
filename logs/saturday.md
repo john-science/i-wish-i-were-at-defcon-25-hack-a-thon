@@ -194,3 +194,7 @@ And let's make sure we have the PiLFS version of all the packages:
 
     wget http://intestinate.com/pilfs/scripts/wget-list
     wget -i wget-list -P $LFS/sources
+
+## 9PM - GCC and Sleep
+
+Okay, I am going to start the long GCC compile and go to bed. Fingers crossed.
