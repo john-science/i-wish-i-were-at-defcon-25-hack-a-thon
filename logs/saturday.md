@@ -147,3 +147,21 @@ Okay, GCC is in.  Time to work on the Linux kernel.
 Okay, time to [build GLIBC](http://www.linuxfromscratch.org/lfs/view/development/chapter05/glibc.html). Apparently, this won't take as long as GCC.  But it sounds like this is a point where stuff starts to fall apart for people. Fingers crossed.
 
 Also, I downloaded a patch for GLIBC, but it took me ages to figure out that that patch probably isn't necessary until the second build phase.
+
+## 6:45PM - Does GLIBC Work?
+
+So, the GLIBC `make` and `make install` seemed to go fine. And I can now use my compiled version of GLIBC to build little C programs.  BUT.  The book says that if I do this:
+
+    echo 'int main(){}' > dummy.c
+    $LFS_TGT-gcc dummy.c
+    readelf -l a.out | grep ': /tools'
+
+Than I should get something like this:
+
+    [Requesting program interpreter: /tools/lib/ld-linux.so.2]
+
+But I get nothing. There is no reference to my `/tools/` directory in the compiled file.
+
+Damn.
+
+At this point the book just says "look around for the problem".  But I am looking through my logs and there are no logs or errors anywhere.  I am at a debugging empass.  Now I just hope someone online has had the EXACT same problem before.
