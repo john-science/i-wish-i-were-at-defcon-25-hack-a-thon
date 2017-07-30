@@ -142,3 +142,8 @@ GCC finally finished compiling!  109 minutes.  Whew.  Now let's try installing i
 
 Okay, GCC is in.  Time to work on the Linux kernel.
 
+## 5:30PM - GLIBC
+
+Okay, time to [build GLIBC](http://www.linuxfromscratch.org/lfs/view/development/chapter05/glibc.html). Apparently, this won't take as long as GCC.  But it sounds like this is a point where stuff starts to fall apart for people. Fingers crossed.
+
+Also, I downloaded a patch for GLIBC, but it took me ages to figure out that that patch probably isn't necessary until the second build phase.
