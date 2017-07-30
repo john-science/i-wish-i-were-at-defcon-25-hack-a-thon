@@ -189,3 +189,8 @@ Okay, I am starting back over [here](http://www.linuxfromscratch.org/lfs/view/de
 Also, it looks like I for something from the [PiLFS guide](http://intestinate.com/pilfs/guide.html). I need this line in my `~/.bashrc`:
 
     LFS_TGT=$(uname -m)-lfs-linux-gnueabihf
+
+And let's make sure we have the PiLFS version of all the packages:
+
+    wget http://intestinate.com/pilfs/scripts/wget-list
+    wget -i wget-list -P $LFS/sources
