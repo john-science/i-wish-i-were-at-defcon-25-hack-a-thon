@@ -61,3 +61,17 @@ So we're doing a LOT better than yesterday.
 
 Well, GCC took FOREVER to compile, but here we are.
 
+## 12:10 PM - Expect
+
+* Now to install Expect, which appears to be a suite of testing tools for the build.
+
+## 12:15 PM - DejaGNU
+
+A testing framework
+
+## 12:20 PM - Moving Along
+
+Actually, these next few seem like small fry, and things are really clipping along.
+
+So I am starting with the Check install [here](http://www.linuxfromscratch.org/lfs/view/development/chapter05/check.html), and I will report back in a bit.
+
