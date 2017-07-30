@@ -38,8 +38,15 @@ On to the standard C++ libraries
 
 Success again!
 
+
 ## 8:30 AM - BinUtils - Pass 2
 
 Let's try this. I'm feeling pretty confident.
 
 But first... what am I re-building BinUtils already?
+
+
+## 8:45 AM - GCC - Pass 2
+
+On a roll this morning. We'll see if it holds out.
+Pass 2 for GCC is running...
