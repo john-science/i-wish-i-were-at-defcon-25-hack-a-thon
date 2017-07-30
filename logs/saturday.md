@@ -165,3 +165,17 @@ But I get nothing. There is no reference to my `/tools/` directory in the compil
 Damn.
 
 At this point the book just says "look around for the problem".  But I am looking through my logs and there are no logs or errors anywhere.  I am at a debugging empass.  Now I just hope someone online has had the EXACT same problem before.
+
+## 8PM - And the name of my pain is TexInfo
+
+Okay, so, apparently I missed a requirement when installing my system.  I think.
+
+I think the problem is that I did not have "TexInfo" installed.  See [this post](http://www.linuxquestions.org/questions/linux-from-scratch-13/linux-from-scratch-chapter-5-7-no-output-from-sanity-check-4175473971/) here for someone with a similar problem.
+
+I guess I should have run this [version-check.sh](http://www.linuxfromscratch.org/lfs/view/development/chapter02/hostreqs.html) script at the start, and I wouldn't have had this problem.
+
+> Sadly, this means that I have to start my build from scratch.
+
+Or, really, it means I have to start over at [BinUtils](http://www.linuxfromscratch.org/lfs/view/stable/chapter05/binutils-pass1.html)
+
+> There is just no way I will be able to finish this build on a Raspberry Pi in the next 36 hours.  Ain't gonna happen.
