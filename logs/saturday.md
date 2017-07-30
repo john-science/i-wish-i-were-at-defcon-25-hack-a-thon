@@ -156,7 +156,7 @@ So, the GLIBC `make` and `make install` seemed to go fine. And I can now use my 
     $LFS_TGT-gcc dummy.c
     readelf -l a.out | grep ': /tools'
 
-Than I should get something like this:
+Then I should get something like this:
 
     [Requesting program interpreter: /tools/lib/ld-linux.so.2]
 
@@ -165,6 +165,7 @@ But I get nothing. There is no reference to my `/tools/` directory in the compil
 Damn.
 
 At this point the book just says "look around for the problem".  But I am looking through my logs and there are no logs or errors anywhere.  I am at a debugging empass.  Now I just hope someone online has had the EXACT same problem before.
+
 
 ## 8PM - And the name of my pain is TexInfo
 
@@ -176,6 +177,15 @@ I guess I should have run this [version-check.sh](http://www.linuxfromscratch.or
 
 > Sadly, this means that I have to start my build from scratch.
 
-Or, really, it means I have to start over at [BinUtils](http://www.linuxfromscratch.org/lfs/view/stable/chapter05/binutils-pass1.html)
+Or, really, it means I have to start over at [BinUtils](http://www.linuxfromscratch.org/lfs/view/development/chapter05/binutils-pass1.html)
 
 > There is just no way I will be able to finish this build on a Raspberry Pi in the next 36 hours.  Ain't gonna happen.
+
+
+## 8:15PM - Restarting at BinUtils
+
+Okay, I am starting back over [here](http://www.linuxfromscratch.org/lfs/view/development/chapter05/binutils-pass1.html) with compiling BinUtils.
+
+Also, it looks like I for something from the [PiLFS guide](http://intestinate.com/pilfs/guide.html). I need this line in my `~/.bashrc`:
+
+    LFS_TGT=$(uname -m)-lfs-linux-gnueabihf
