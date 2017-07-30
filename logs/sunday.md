@@ -103,3 +103,10 @@ I guess I will try the RPi3 run script for chapter 6.
 Okay, after an hour of working through chapter 6 I thought I was to the point to run the PiLFS chapter 6 run script.  But there are problems.  Namely, after a `chroot` command, the terminal no longer knows where `/bin/bash` is.  So... I can't run the bash script.
 
 Okay, let's look at this again.
+
+
+## 4 PM - Chapter 6 - False Start Number 3. Ha.
+
+Okay, I had to create a password for the root user on my Raspberry Pi.  Then the automated script for sections 6.7 through 6.70 died hard.  I think because I didn't clear out some of my old `build` directories. Looking into it.
+
+Okay, I cleared out all my old build directories.  Trying again...
