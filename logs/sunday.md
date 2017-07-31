@@ -110,3 +110,16 @@ Okay, let's look at this again.
 Okay, I had to create a password for the root user on my Raspberry Pi.  Then the automated script for sections 6.7 through 6.70 died hard.  I think because I didn't clear out some of my old `build` directories. Looking into it.
 
 Okay, I cleared out all my old build directories.  Trying again...
+
+
+## 6PM - All those tar commands
+
+Chapter 6 is still chugging away, building the final OS.
+
+But all of those tarred packages got me thinking: I really hate memorizing all those tar flag.  And I am just terrible at:
+
+![XKCD on tar](https://imgs.xkcd.com/comics/tar.png)
+
+So I am just going to write a little script to do all of that for me.  Never again will I have to deal with all those annoying tar flags (that is, after I full understand all of them to write this script).  And the project will be known as:
+
+[StupidZip](https://github.com/theJollySin/StupidZip)
