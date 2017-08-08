@@ -14,9 +14,38 @@ I have been using `cp` to copy files for so long I no longer think about what it
 This means you can use `dd` to [create disk images](https://askubuntu.com/questions/299081/how-do-i-create-a-backup-image-of-an-sd-card#299090).
 
 
-## Open Source Projects
+#### The Extended Partition
 
-### InfoSec Projects
+It turns out that most setups only allow for four standard partitions.  I have no idea why.  But if you want more than that, you use the "extended partition", which you can then carve up to your heart's content.
+
+So the extended partition serves a purpose, because of the four-partition limit.
+
+[Here](https://askubuntu.com/questions/151968/what-does-the-term-extended-partition-mean-is-it-safe-to-use-this-type-of-par) is a nice AskUbuntu question about it.
+
+
+#### .bashrc vs .bash_profile
+
+I never really understood *why* we have so many different bash/etc profiles.  [This](https://stackoverflow.com/a/416931/1287593) StackOverflow answer had the best summary I could find:
+
+    /bin/bash
+           The bash executable
+    /etc/profile
+           The systemwide initialization file, executed for login shells
+    ~/.bash_profile
+           The personal initialization file, executed for login shells
+    ~/.bashrc
+           The individual per-interactive-shell startup file
+    ~/.bash_logout
+           The individual login shell cleanup file, executed when a login shell exits
+    ~/.inputrc
+           Individual readline initialization file
+
+
+## InfoSec
+
+Early on in the planning stages of this hack-a-thon I thought I would do something more InfoSec-related. That was abandoned, but I did a lot of reading first.  Most of that I won't summarize here.
+
+#### InfoSec Projects
 
 > It would be cool to contribute to an open source InfoSec or Pen Testing project.
 
@@ -29,22 +58,7 @@ These projects are in languages I know well and might otherwise be a good place 
 * [GRR](https://github.com/google/grr/tree/gh-pages) - Google Rapid Response forensics and investigation
 * [Cuckoo](https://github.com/cuckoosandbox/cuckoo) - sandbox for malware analysis
 
-
-## Minutia
-
-Less important things I learned.
-
-
-## TODO
-
-This is just a place for things I am learning about that I will try to write down more fully later.
-
-* The Extended Partition
-* [.bashrc vs .bash_profile](https://stackoverflow.com/questions/415403/whats-the-difference-between-bashrc-bash-profile-and-environment)
-* ld vs ln... whoops.
-
-
-### InfoSec Terminology
+#### InfoSec Terminology
 
 I finally sorted all of these out in my head.
 
