@@ -7,6 +7,13 @@
 
 It is time to dig deeper.
 
+#### The Raspberry Pi is "small"
+
+The Raspberry Pi really is just too small for me to do all the compilations necessary to build a Linux distro from scratch in just a weekend.  I thought the time constraints would all be on my learning. But, no, I needed a faster machine or more time to make the project successful.
+
+> Live and Learn
+
+
 #### File Copying - cp vs dd
 
 I have been using `cp` to copy files for so long I no longer think about what it is doing. But I / we can't use `cp` to overwrite a hard drive with a disk image. This is because the `cp` tool has to work *within* a filesystem. For disk image creation I used `dd`, which allowed me to overwrite the partition tables and filesystem with a disk image.
