@@ -6,7 +6,7 @@
 Woke up, jazzercised, ate half a mellon.
 
 
-## 7 AM - Back at It
+## 7 AM - Back at it
 
 The GCC `make` succeeded.  Now for `make install` and to try Linux API headers again.
 
@@ -127,4 +127,6 @@ So I am just going to write a little script to do all of that for me.  Never aga
 
 ## 6PM - Tuesday
 
-Okay, I got the LFS built, but I am several steps away from booting into it. Shame.  I left off [here](http://www.linuxfromscratch.org/lfs/view/development/chapter07/introduction.html).  One day I'll come back.
+Okay, I got the LFS built, but I am several steps away from booting into it. Shame.  I left off [here](http://www.linuxfromscratch.org/lfs/view/development/chapter07/introduction.html).
+
+One day I'll come back.
