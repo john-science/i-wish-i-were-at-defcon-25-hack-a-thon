@@ -116,11 +116,11 @@ Okay, I cleared out all my old build directories.  Trying again...
 
 Chapter 6 is still chugging away, building the final OS.
 
-But all of those tarred packages got me thinking: I really hate memorizing all those tar flag.  And I am just terrible at:
+But all of those tarred packages got me thinking: I really hate memorizing all those `tar` flags.  And I am just terrible at it:
 
 ![XKCD on tar](https://imgs.xkcd.com/comics/tar.png)
 
-So I am just going to write a little script to do all of that for me.  Never again will I have to deal with all those annoying tar flags (that is, after I full understand all of them to write this script).  And the project will be known as:
+So I am just going to write a little script to do all of that for me.  Never again will I have to deal with all those annoying `tar` flags (that is, after I fully understand all of them well enough to write the script).  And the project will be known as:
 
 # [StupidZip](https://github.com/theJollySin/StupidZip)
 
