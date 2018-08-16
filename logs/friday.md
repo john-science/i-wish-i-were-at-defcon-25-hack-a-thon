@@ -38,7 +38,7 @@ Now I will use the Gnome Disk Utility to check that the formatting worked correc
 Huzzah!
 
 
-## 4:30 PM - Installng the Raspbian OS
+## 4:30 PM - Installig the Raspbian OS
 
 I got the Raspbian OS from the official download site [here](https://www.raspberrypi.org/downloads/raspbian/).
 
@@ -141,7 +141,7 @@ I bought a cheap USB keyboard on Amazon for this project.
 
 > The # and | keys are broken.
 
-Damn.  Those are important in bash.
+Damn. Those are important in bash.
 
 I am sitting here playing around with various custom key maps.  But this is not what I wanted to spend my time on.
 
@@ -150,7 +150,7 @@ I am sitting here playing around with various custom key maps.  But this is not 
 
 * [Chapter 3. Packages and Patches](http://www.linuxfromscratch.org/lfs/view/development/chapter03/introduction.html)
 
-Okay, now I have to download a bunch of packages worth of source code and probably some kernel stuff.  I fully expect this to take a long time, over the WIFI on my Raspberry Pi.
+Okay, now I have to download a bunch of packages worth of source code and probably some kernel stuff. I fully expect this to take a long time, over the WIFI on my Raspberry Pi.
 
 First, we will create a directory for all the source code to live while I am working:
 
@@ -166,7 +166,7 @@ And, if all goes well, we can just use `wget` again to retrieve all the packages
     $ wget --input-file=wget-list --continue --directory-prefix=$LFS/sources
 
 > And now we play the waiting game...
-> The waiting game is boring, let's play Hungry, Hungry Hippos.
+> [The waiting game is boring, let's play Hungry, Hungry Hippos.](https://www.youtube.com/watch?v=9JVNMmsN3Co)
 
 ## 8:30 - Dinner
 
