@@ -1,7 +1,7 @@
 My experience with Raspberry Pi
 ###############################
-:Course  : COSC-2325 - Computer Architecture and Machine Language
-:School  : Austin Community College
+:Course: COSC-2325 - Computer Architecture and Machine Language
+:School: Austin Community College
 :Semester: Spring 2019
 
 The professor teaching this class was retiring after that semester and I think he became accustomed to the ACC library always having a million Raspberry Pi and Arduino kits to lend out. For some reason, there were fewer. Luckily for me, I knew that my sister and her housemate had a couple old ones just sitting around their house from the activities they do at the library. What made it difficult was he assigned us into groups of 2-4 people. However, that semester, the school decided it needed to lock down their Wifi with an ACC ID and password. Seems typical. However the professor was upset at the school and the librarians because he was teaching that class in that particular manner for a long time (relying on open, unsecure Wifi).
